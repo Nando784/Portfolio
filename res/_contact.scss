@@ -1,0 +1,56 @@
+%input-style{
+  background-color: #f0f0f0;
+  color: #0f0f0f;
+  font-size: 1.1rem;
+}
+
+
+
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+
+  address{
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 20px;
+
+    border-left: 1px solid #0f0f0f;
+  }
+}
+
+
+
+.form-container {
+  width: 600px;
+
+  .in-name {
+    max-width: 200px;
+    @extend %input-style;
+  }
+
+  .in-object {
+    max-width: 270px;
+    @extend %input-style;
+  }
+
+  .in-email {
+    max-width: 250px;
+    @extend %input-style;
+  }
+
+  button{
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+  }
+
+  input {
+    display: inline-block;
+  }
+
+  h3{
+    line-height: 2em;
+  }
+}

@@ -1,0 +1,21 @@
+//$primary-color: #3d3d3d;
+$primary-color:#000;
+$font-color-dark: #0f0f0f;
+$font-color-light: #f0f0f0;
+$font-style: 'Roboto',sans-serif;
+$test-border: 1px solid red;
+
+
+
+.dark-font{
+  color: $font-color-dark;
+}
+
+.white-font{
+  color: $font-color-light
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}

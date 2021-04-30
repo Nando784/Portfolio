@@ -1,0 +1,28 @@
+.navbar{
+  background-color: $primary-color;
+  height: 50px;
+  padding: 5px;
+
+  .brand-img{
+    height: 40px;
+    width: auto;
+    margin: 5px;
+  }
+
+
+  &-nav li{
+    padding-right: 25px
+  }
+
+
+  &-nav li a{
+    color: white !important;
+    font-size: 1.1em;
+  }
+
+  &-nav li a:hover{
+    //text-decoration: underline;
+    color: #d0d0d0 !important;
+  }
+}
+

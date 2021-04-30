@@ -1,0 +1,58 @@
+@import "config";
+@import "fonts";
+@import "scrollbar";
+
+@import "header";
+@import "arrow";
+
+@import "card";
+
+@import "services";
+
+@import "about";
+
+@import "contact";
+
+@import "footer";
+
+
+*,body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: $font-style;
+  background-color: #f0f0f0;
+  color: $font-color-dark;
+}
+
+
+.carousel-caption{
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  h1{
+    text-shadow: 0 0 5px darkgrey;
+  }
+}
+
+.padding{
+  padding-bottom: 50px;
+}
+
+.welcome{
+  padding-top: 50px;
+}
+
+
+@import "media-queries";
+
+
+
+
+
+
+

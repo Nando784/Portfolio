@@ -1,0 +1,22 @@
+footer{
+  background-color: #000;
+  color: $font-color-light;
+  height: 100px;
+
+  h5{
+    display: inline;
+  }
+
+  p{
+    margin-top: 15px;
+  }
+
+  .social{
+    padding-top: 10px;
+    a{
+      font-size: 30px;
+      margin: 8px;
+      color: #f0f0f0;
+    }
+  }
+}

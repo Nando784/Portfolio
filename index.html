@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <!-- Tag di Base-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <!-- Il Nostro File CSS -->
+    <link rel="stylesheet" href="res/style.css">
+
+    <!-- Script per Alert-->
+    <script type="text/javascript">
+        function show_alert() {
+            alert("The E-Mail Client Will Be Opened. \nContinue ?");
+        }
+    </script>
+
+    <!-- Icona e Nome della Pagina-->
+    <link href="img/icona_pagina.png" rel="icon" type="image/ico">
+    <title>Nando Sorbello</title>
+</head>
+<body>
+
+<!-- Header & Navigation -->
+<header>
+    <nav class="navbar navbar-expand-md  navbar-dark  sticky-top">
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <div class="brand">
+                <a class="navbar-brand" href="#"><img class="brand-img" src="img/nome_logo.png"></a>
+            </div>
+
+
+            <!-- Bottone Drop Downd quando rimpicciolisce lo schermo e gli elementi collassano -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <!-- Div a cui si riferisce il bottone -->
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Works">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+</header>
+
+<!--- Home -->
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="img/sfondo_official.png" style="width: 100%; height: 100%; ">
+
+        <div class="carousel-caption">
+            <h1 class="display-2">Hello There!</h1>
+        </div>
+    </div>
+</div>
+<div class="arrow"></div>
+
+<!--- Works -->
+<div class="container-fluid padding bg-white">
+
+    <a name="Works"></a>
+    <!--- Works Title -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center dark-font">
+            <div class="col-12">
+                <h1 class="display-4"><strong>Works</strong></h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+
+    <!--- Card Container -->
+    <div class="row padding">
+
+        <!--- Card 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-imd-top" src="img/valutazione.jpg"
+                     style="width: 100%; height: 100%; opacity: 0.8;">
+                <div class="card-body">
+                    <h4 class="card-title"><strong>Adicem Review</strong></h4>
+                    <h5><em>Developer - Designer</em></h5>
+                    <p class="card-text">A Kiosk Android Application to monitor Customer Satisfaction. <br>
+                        Developed
+                        for a local company called 'Adicem Brico'.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!--- Card 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-imd-top" src="img/cassonetto.jpg" style="width: 100%; height: 100%;">
+                <div class="card-body">
+                    <h4 class="card-title"><strong>Dump Finder</strong></h4>
+                    <h5><em>Back-End Developer - Designer</em></h5>
+                    <p class="card-text">Collaboration with the Municipality of Acireale. <br>Application and
+                        Website
+                        for Citizens' reports of Illegal Landfills.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!--- Card 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-imd-top" src="img/computer.jpg" style="width: 100%; height: 100%; opacity: 0.8;">
+                <div class="card-body">
+                    <h4 class="card-title"><strong>Computer Technician</strong></h4>
+                    <h5><em>Technician</em></h5>
+                    <p class="card-text"> Maintenance of Broken or Old Computers. Computer Assembly with selection
+                        of
+                        the Hardware consistent with the Customer's Requests.</p>
+                </div>
+
+            </div>
+        </div>
+    </div><!--- Chiusura Card Container -->
+</div><!--- Chiusura Works Container -->
+
+<!--- Services -->
+<div class="container-fluid padding">
+
+    <a name="Services"></a>
+    <!--- Services Title -->
+    <div class="row welcome padding text-center dark-font">
+        <div class="col-12">
+            <h1 class="display-4"><strong>Services</strong></h1>
+        </div>
+        <hr>
+    </div>
+
+
+    <div class="row text-center dark-font">
+        <div class="col-xs-12 col-sm-6 col-md-4 services-element">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+            <p class="services-paragraph">Development of Responsive Web Pages based on HTML5.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 services-element">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS/SASS</h3>
+            <p class="services-paragraph">Development of Web Pages Design with CSS3, SASS and Bootstrap.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 services-element">
+            <i class="fas fa-database"> </i>
+            <h3>Database</h3>
+            <p class="services-paragraph">Relational and Document Databases based on mySQL and MongoDB.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 services-element">
+            <i class="fab fa-android"> </i>
+            <h3>Android App</h3>
+            <p class="services-paragraph">Development of Android and Kiosk Applications with Server and Database
+                integration.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 services-element">
+            <i class="fas fa-code"></i>
+            <h3>Java Software</h3>
+            <p class="services-paragraph">Development of Management Java Software with Database Integration and Java
+                Server Development.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 services-element">
+            <i class="fas fa-microchip"></i>
+            <h3>Assistence</h3>
+            <p class="services-paragraph">Maintenance for Broken Computers. Assembly of Personal Machines and
+                Workstations.</p>
+        </div>
+
+
+    </div>
+    <hr class="my-4">
+</div> <!--- Chiusura Services -->
+
+<!--- About -->
+<div class="container-fluid padding welcome bg-white">
+
+    <a name="About"></a>
+
+    <div class="padding about">
+
+        <div class="face-img">
+            <img class="img-fluid" src="img/portrait.png">
+        </div>
+
+        <div class="bio">
+            <h2><strong>A B O U T &nbsp;&nbsp; M E </strong></h2>
+            <p style="width: 350px;">Hi! My name is Nando, an App and Web Developer in Catania.
+                I started studying Programming in High School, studying various languages such as Java, Android,
+                HTML,
+                JavaScript and PHP.
+            </p>
+            <p style="width: 350px;">
+                My goal is to always keep up to date on the things I already know and to discover new ones.
+                Currently I follow the Full Stack Developer course on the Start2impact platform, with the intent to
+                consolidate my knowledge at 360°.
+            </p>
+            <p style="width: 350px;">
+                I love talk about Music, Movies, Technology Development and how to be a part of it.
+                If you do too, <a href="#Contact">let's talk about it together!</a>
+            </p>
+        </div>
+    </div>
+
+</div> <!--- Chiusura About -->
+
+<!--- Contact Form -->
+<div class="container-fluid padding">
+
+    <a name="Contact"></a>
+    <!--- Contact Title -->
+    <div class="row welcome padding text-center dark-font">
+        <div class="col-12">
+            <h1 class="display-4"><strong>Contact</strong></h1>
+        </div>
+        <hr>
+    </div>
+
+
+    <div class="contact-container">
+
+        <div class="form-container">
+            <form method="post" action="mailto:nandosorbello@live.it" enctype="text/plain">
+                <h3><strong>"Hello! My name is <input name="subject" type="text" class="form-control in-name"
+                                                      id="name" placeholder="Your Name.."> and
+                    I want to talk with you about <input name="body" type="text" class="form-control in-object"
+                                                         id="object" placeholder="Web Page, Job, Ecc..">
+                    You can reach me at <input name="from" type="email" class="form-control in-email" id="email"
+                                               placeholder="Your E-Mail..">
+                    to make great things!"</strong></h3>
+                <button type="submit" onclick="show_alert()"><h5><strong>- Send Info</strong></h5></button>
+            </form>
+        </div>
+
+        <address>
+            <div class="info">
+                <h5><strong>Address</strong></h5>
+                <p>Via Cappelluzza, 45<br>Aci Catena, CT 95022</p>
+            </div>
+
+            <div class="info">
+                <h5><strong>Phone</strong></h5>
+                <p>(+39)342 988 2898</p>
+            </div>
+
+            <div class="info">
+                <h5><strong>E-Mail</strong></h5>
+                <p>nandosorbello@live.it</p>
+            </div>
+        </address>
+
+    </div> <!--- Chiusura Contact-Container -->
+
+    <hr class="my-4">
+</div> <!--- Chiusura Contact -->
+
+<!--- Footer -->
+<footer class="text-center">
+
+    <div class="social">
+        <h5><strong>in</strong></h5>
+        <a href="https://www.facebook.com/nandosorbello/"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/sorbrex.ns/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nando-sorbello-290399"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+
+    <!--Copyright-->
+    <p class="copy">&copy; 2021 NANDO SORBELLO | NANDOSORBELLO@LIVE.IT</p>
+</footer>
+
+
+</body>
+</html>
+
+

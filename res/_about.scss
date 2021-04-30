@@ -1,0 +1,35 @@
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  a {
+    color: #0f0f0f;
+    text-decoration: underline;
+    text-decoration-color: #d0d0d0;
+  }
+
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+
+  img{
+    width: 200px;
+
+    position: relative;
+    top:-40px;
+    right: -40px;
+  }
+  .face-img{
+    margin-top: 100px;
+    border: #0f0f0f solid 5px;
+    width: 210px;
+  }
+
+  .bio{
+    margin-left: 100px;
+  }
+
+}

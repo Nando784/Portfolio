@@ -1,0 +1,38 @@
+.services-element{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-paragraph{
+  width: 270px;
+}
+
+.fa-html5{
+  color: #e54d26;
+}
+.fa-android{
+  color: #A4C639;
+}
+
+.fa-css3-alt{
+  color: #2163AF;
+}
+
+.fa-code{
+  color: #ff3333;
+}
+
+.fa-database{
+  color: #F29111;
+}
+
+.fa-microchip{
+  color: #01A6F0;
+}
+
+.fa-html5,.fa-android,.fa-css3-alt,.fa-code,.fa-database,.fa-microchip{
+  font-size: 64px;
+  margin: 16px;
+}

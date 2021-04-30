@@ -1,0 +1,166 @@
+/*---Media Queries --*/
+
+//da 768px fino a 992 (md)
+@media (max-width: 992px) {
+
+}
+
+//da 576px fino a 768 (sm)
+@media (max-width: 768px) {
+  .carousel-caption{
+    h1{
+      font-size: 50px;
+    }
+  }
+
+  .navbar{
+    height: 70px;
+
+    &-nav{
+      width: 150px;
+      background-color: #000;
+      border-radius: 10px;
+
+    }
+
+    &-nav li{
+      padding: 10px;
+    }
+  }
+
+
+  .contact-container{
+    flex-direction: column;
+    align-items: center;
+
+    address{
+      width: 98%;
+
+
+      flex-direction: row;
+      justify-content: space-between;
+
+      padding: 0;
+      margin: 50px;
+
+      border-top: 1px solid #0f0f0f;
+      border-left: none;
+    }
+
+    .info{
+      width: 100%;
+      padding-top: 50px;
+      padding-right: 10px;
+    }
+  }
+
+  .form-container {
+    width: 550px;
+  }
+}
+
+
+
+
+//da 425px fino a 576px (xs)
+@media (max-width: 576px) {
+  .navbar{
+    height: 70px;
+
+    &-nav{
+      width: 150px;
+      background-color: #000;
+      border-radius: 10px;
+
+    }
+
+    &-nav li{
+      padding: 10px;
+    }
+  }
+
+  .carousel-caption{
+    h1{
+      top: 70%;
+      transform: translateY(-70%);
+    }
+  }
+
+  .arrow{
+    display: none;
+  }
+
+
+  .bio p{
+    width: 300px !important;
+  }
+
+  .contact-container{
+    flex-direction: column;
+    align-items: center;
+
+    address{
+
+      flex-direction: column;
+      align-items: center;
+
+      padding: 0;
+      margin: 50px;
+
+      border-top: 1px solid #0f0f0f;
+      border-left: none;
+    }
+
+    .form-container {
+      width: fit-content;
+      input {
+        display: block;
+      }
+    }
+
+    .info{
+      text-align: center;
+      padding: 25px 0;
+      width: 100%;
+    }
+  }
+
+}
+
+//da 0px fino a 408px (xxs)
+@media (max-width: 408px) {
+  .bio{
+    margin-left: -50px !important;
+    //margin-right: 50px !important;
+    text-align: center !important;
+  }
+  .bio p{
+    width: 250px !important;
+  }
+
+  .face-img{
+    margin-left: -50px !important;
+    margin-right: 20px !important;
+  }
+
+
+}
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
